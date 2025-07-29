@@ -18,12 +18,12 @@ bool test_case() {
 		return false;
 	}
 	cout << "YES\n";
-	for (int i = 1; i <= n; i++) {
+	for (int i = 1; i <= n+ties; i++) {
 		cout << i << " ";
 	}
-	for (int i = n + 1; i <= n + ties; i++) {
-		cout << i << " ";
-	}
+	// for (int i = n + 1; i <= n + ties; i++) {
+	// 	cout << i << " ";
+	// }
 	cout << "\n";
 	for (int i = 1; i <= n; i++) {
 		int x = i + a;
